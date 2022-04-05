@@ -1,0 +1,98 @@
+
+    
+
+    img{  
+        width: 50%;
+height: 50%;
+border-radius: 65px;
+background: #c7620f;
+box-shadow:  -35px 35px 70px #502706,
+             35px -35px 70px #ff9d18;
+             padding:2px;
+        }  
+        #center {  
+            text-align: center; 
+             
+            } button {
+                background: #FBCA1F;
+                font-family: inherit;
+                padding: 0.6em 1.3em;
+                font-weight: 900;
+                font-size: 18px;
+                border: 3px solid black;
+                border-radius: 0.4em;
+                box-shadow: 0.1em 0.1em;
+                padding:2px;
+               }
+               
+               button:hover {
+                transform: translate(-0.05em, -0.05em);
+                box-shadow: 0.15em 0.15em;
+                
+               }
+               
+               button:active {
+                transform: translate(0.05em, 0.05em);
+                box-shadow: 0.05em 0.05em;
+               }
+
+
+
+
+
+
+
+               /* From cssbuttons.io by @westitan */
+/* From cssbuttons.io by @Gumpack */
+    
+   .btn {
+    border-radius: 99px;
+    background: #c7620f;
+    box-shadow:  -22px -22px 44px #502706,
+                 22px 22px 44px #ff9d18;
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: orange;
+    font-family: 'Bahiana', sans-serif;
+    display: block;
+    border: 0px;
+    zoom:150%;
+    left: 5px;
+    font-weight: 700;
+   }
+   
+   .btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: orange;
+    text-decoration: none;
+   }
+   
+   .btn:active {
+    transform: scale(0.95);
+   }
+
+
+   #loginbutton,
+   #signupbutton {
+       display: inline;
+    
+       color: orange;
+      
+       text-align: center;
+       background-color: black;
+   
+       margin: 10px;
+       
+   }
+   
+   #buttonzone{
+   
+  left: 70px;
+    text-align: center; 
+   }
+

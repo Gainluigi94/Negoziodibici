@@ -1,0 +1,88 @@
+<div class="card">
+<div class="men" >
+  <div class="user" id="register">
+R E G I S T R A Z I O N E         
+</div>
+</div>
+
+  <form [formGroup]="addPerson" (ngSubmit)="OnRowInserting()"> 
+    <div style='margin-top:5%;'></div>
+  
+   <div style='margin-top:20px;'id = "Nome"> Nome </div>
+  <input type="text" class="form-control" formControlname="Nome">
+
+    <div style='margin-top:20px;' 
+         id = "Cognome">Cognome</div>
+   
+    <input type="text" class="form-control" formControlname="Cognome"> 
+
+
+    <div style='margin-top:20px;'></div>
+   
+   <div style='margin-top:20px;'id = "Cf"> Codfiscale </div>
+  
+  <input type="text" class="form-control" formControlname="Codicefiscale">
+ 
+     <div style='margin-top:20px;' 
+          id = "Sesso"> Sesso </div>
+    
+     <input type="text" class="form-control" formControlname="Sesso"> 
+
+<div style='margin-top:20px;'></div>
+          
+   <div style='margin-top:20px;'id = "Via"> Via </div>
+   <input type="text" class="form-control" formControlname="Via">
+ 
+     <div style='margin-top:20px;' 
+          id = "Cap"> Cap </div>
+    
+     <input type="text" class="form-control" formControlname="Cap"> 
+
+
+     <div style='margin-top:20px;'></div>
+          
+     <div style='margin-top:20px;'id = "Comune"> Comune </div>
+     <input type="text" class="form-control" formControlname="Comune">
+   
+       <div style='margin-top:20px;' 
+            id = "Trav"> Trav </div>
+      
+       <input type="text" class="form-control" formControlname="Trav"> 
+
+<div style='margin-top:20px;'></div>
+          
+       <div style='margin-top:20px;'id = "Nazione"> Nazione </div>
+       <input type="text"class="form-control"  formControlname="Nazione">
+     
+          <div style='margin-top:20px;' 
+                id = "Nascita"> Nascita </div>
+        
+         <input type="text" class="form-control" formControlname="Nascita"> 
+
+<div style='margin-top:20px;'></div>
+<div style='margin-top:20px;'id = "Email"> Email </div>
+<input type="text"class="form-control" formControlname="Email">
+       
+          <div style='margin-top:20px;' 
+                id = "Password"> Password </div>
+        
+         <input type="text" class="form-control" formControlname="Password"> 
+         <div style='margin-top:20px;'></div>
+         <div style='margin-top:20px;' 
+         id = "Numerocivico">N.civico</div>
+     
+     <input type="text" class="form-control" formControlname="Numerocivico"> 
+     
+     <div style='margin-top:20px;'></div>
+           
+<div id="buttonzone">
+  <button type="submit" class="btn" id="loginbutton">Registrati</button>
+
+</div>
+    
+  
+  
+
+
+  </form>
+</div>

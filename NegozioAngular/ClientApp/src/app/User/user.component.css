@@ -1,0 +1,145 @@
+
+
+
+
+
+   .card {
+    width: 500px;
+    height: 500px;
+    background: rgb(213, 130, 6);
+    background: linear-gradient(344deg, rgb(248, 124, 0) 0%, rgb(0, 0, 0) 50%);
+    box-shadow: 4px 6px 14px #f88a04;
+    border-radius: 3px;
+    color: #F9F9F9;
+    padding: 16px;
+    transition: all .3s;
+    bottom:10%;
+   }
+   
+   
+
+   .user{
+      width: 900px;
+      
+      height: 750px;
+      background: rgb(213, 130, 6);
+      background: linear-gradient(344deg, rgb(248, 124, 0) 0%, rgb(0, 0, 0) 50%);
+      box-shadow: 4px 6px 14px #f88a04;
+     font-family: ba;
+      color: gold;
+      padding: 16px;
+      transition: all .3s;
+      font-family: 'Bahiana', sans-serif;
+  }
+  #register{
+   height: 700%;
+   text-align: center;
+   height: auto;
+}
+.a,div{
+   margin: 5.2%;
+   display: inline;
+}
+div{
+
+   color: gold;
+   font-family: 'Bahiana', sans-serif;
+   font-weight: 700;
+   border-radius: 99px;
+   font-weight: 900;
+   font-size: 25px;
+   text-align: center;
+}
+
+ input{
+   background-color: black;
+   color: gold;
+   width: 270px;
+   height: 30px;
+
+   }
+   #Password{
+    
+      margin: 7%;
+
+   }
+
+
+   #Email{
+    display: inline;
+      margin: 1%;
+
+   }
+   #buttonzone{
+   
+     bottom: 50%;
+        text-align: center; 
+       }
+  
+       #loginbutton {
+          display: inline;
+       
+          color: orange;
+         
+          text-align: center;
+          background-color: black;
+      
+          margin: 10px;
+          
+      }
+   button {
+      background: #FBCA1F;
+      font-family: inherit;
+      padding: 0.6em 1.3em;
+      font-weight: 900;
+      font-size: 18px;
+      border: 3px solid black;
+      border-radius: 0.4em;
+      box-shadow: 0.1em 0.1em;
+      padding:2px;
+      
+     }
+     
+     button:hover {
+      transform: translate(-0.05em, -0.05em);
+      box-shadow: 0.15em 0.15em;
+      
+     }
+     
+     button:active {
+      transform: translate(0.05em, 0.05em);
+      box-shadow: 0.05em 0.05em;
+     }
+
+.btn {
+  border-radius: 99px;
+  background: #c7620f;
+  box-shadow:  -22px -22px 44px #502706,
+               22px 22px 44px #ff9d18;
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: orange;
+  font-family: 'Bahiana', sans-serif;
+  display: block;
+  border: 0px;
+  zoom:150%;
+  left: 5px;
+  font-weight: 700;
+  bottom: 50%;
+ }
+ 
+ .btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: orange;
+  text-decoration: none;
+ }
+ 
+ .btn:active {
+  transform: scale(0.95);
+ }
+  

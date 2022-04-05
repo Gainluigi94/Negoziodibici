@@ -1,0 +1,7 @@
+{
+    "apiUrl": "http://localhost:5001/api/",
+    "environementData": {
+      "production": "false",
+      "apiEndpoint": "http://localhost:5001/api/"
+    }
+}
